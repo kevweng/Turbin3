@@ -1,4 +1,4 @@
 *wallet.json
 **/target/
-/solana-starter/
+/solana-starter/**/ 
 !/solana-starter/ts/cluster1/
