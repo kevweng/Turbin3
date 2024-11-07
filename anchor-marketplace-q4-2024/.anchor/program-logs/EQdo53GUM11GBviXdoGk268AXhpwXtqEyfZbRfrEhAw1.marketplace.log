@@ -1,0 +1,10 @@
+Streaming transaction logs mentioning EQdo53GUM11GBviXdoGk268AXhpwXtqEyfZbRfrEhAw1. Confirmed commitment
+Transaction executed in slot 3:
+  Signature: 5KMnSUeHueewBNETS9LfyZd55FFAMDG1y4SeWuDuamVZm8UXGGgtoXD1ctzMm6yNG9ZiHzPVyBkH7vh6Qyy1aznj
+  Status: Ok
+  Log Messages:
+    Program EQdo53GUM11GBviXdoGk268AXhpwXtqEyfZbRfrEhAw1 invoke [1]
+    Program log: Instruction: Initialize
+    Program log: Greetings from: EQdo53GUM11GBviXdoGk268AXhpwXtqEyfZbRfrEhAw1
+    Program EQdo53GUM11GBviXdoGk268AXhpwXtqEyfZbRfrEhAw1 consumed 11919 of 200000 compute units
+    Program EQdo53GUM11GBviXdoGk268AXhpwXtqEyfZbRfrEhAw1 success
