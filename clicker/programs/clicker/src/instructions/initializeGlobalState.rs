@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 
 #[derive(Accounts)]
-pub struct Initialize {
+pub struct InitializeGlobalState<'info> {
     #[account(mut)]
     pub authority: Signer<'info>,
 
@@ -16,7 +16,7 @@ pub struct Initialize {
     pub system_program: Program<'info, System>,
 }
 
-impl Initialize {
+impl<'info> InitializeGlobalState<'info> {
     pub fn initialize(&mut self, bump: u8) -> Result<()> {
         self.global_state.set_inner(GlobalState {
             total_global_cookies: 0,
